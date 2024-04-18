@@ -4,39 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "009d9d852d980f5b",
+        "id": "fea84f8e6462bdac",
         "type": "tabs",
         "children": [
           {
-            "id": "95d5291db8e7d2ed",
+            "id": "9fea9f0fc4f106ea",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2024-04-17.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a8205d116e1b1e88",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "SMS Batch Login flow.canvas",
-                "viewState": {
-                  "x": -558.0856526414581,
-                  "y": -65.78086723220797,
-                  "zoom": -0.3333333333333332
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SMS Batch Login flow.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SMS Batch Login flow.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SMS Batch Login flow.canvas"
-              }
+              "state": {}
             }
           }
         ]
@@ -165,13 +140,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a8205d116e1b1e88",
+  "active": "9fea9f0fc4f106ea",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Daily Notes/2024-04-17.md",
+    "diagnostic snippets/Check ports.md",
     "SMS Batch Login flow.canvas",
+    "diagnostic snippets",
+    "SMS batch class scaffolding.canvas",
+    "Untitled.md",
     "Daily Notes/2024-04-18.md",
     "Network commands.md",
-    "Daily Notes/2024-04-17.md",
     "Daily Notes/2024-04-11.md",
     "Templates/Daily Note Template.md",
     "Daily Notes/Untitled.md",

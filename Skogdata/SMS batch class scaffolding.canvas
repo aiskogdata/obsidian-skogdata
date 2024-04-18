@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"2905b66d675ea01f","type":"text","text":"ControlPanelController.cs","x":-9,"y":-60,"width":250,"height":60,"color":"5"},
+		{"id":"a6b9ea17f1d57676","type":"text","text":"BatchCreationController.cs","x":-160,"y":0,"width":276,"height":60,"color":"5"},
+		{"id":"e7b379bd04923c03","type":"text","text":"BatchOverviewController.cs","x":116,"y":0,"width":276,"height":60,"color":"5"},
+		{"id":"dbb951267986076f","type":"text","text":"BatchDetailsController.cs","x":496,"y":0,"width":276,"height":60,"color":"5"},
+		{"id":"fe905067534762a9","type":"text","text":"FileParser.cs","x":-720,"y":8,"width":250,"height":52,"color":"3"},
+		{"id":"ae87f555a1ef0e43","type":"text","text":"FileExporter.cs","x":940,"y":4,"width":250,"height":52,"color":"3"},
+		{"id":"f3ec16b43c336624","type":"text","text":"external file location.","x":940,"y":-182,"width":250,"height":60},
+		{"id":"a25dce4791521399","type":"text","text":"Related Entity Framework modules","x":-22,"y":240,"width":276,"height":60,"color":"5"},
+		{"id":"16cdd581938808b0","type":"text","text":"HomeController.cs","x":-9,"y":-320,"width":250,"height":60,"color":"5"},
+		{"id":"bc15247143c80d53","type":"text","text":"LoginController.cs","x":-9,"y":-209,"width":250,"height":60,"color":"5"},
+		{"id":"8b57cd99708b059a","type":"text","text":"InvalidScopeController.cs","x":480,"y":-209,"width":250,"height":60,"color":"5"}
+	],
+	"edges":[
+		{"id":"551ed5dbbd0d5889","fromNode":"16cdd581938808b0","fromSide":"bottom","toNode":"bc15247143c80d53","toSide":"top","label":"User triggers login"},
+		{"id":"22f84013e6fd49ea","fromNode":"bc15247143c80d53","fromSide":"bottom","toNode":"2905b66d675ea01f","toSide":"top","label":"User succeeds login"},
+		{"id":"c8b96a33a73fd722","fromNode":"bc15247143c80d53","fromSide":"right","toNode":"8b57cd99708b059a","toSide":"left","label":"failed login"},
+		{"id":"54d4cc85d99a4223","fromNode":"e7b379bd04923c03","fromSide":"right","toNode":"dbb951267986076f","toSide":"left"},
+		{"id":"10de4a633238a472","fromNode":"a6b9ea17f1d57676","fromSide":"top","toNode":"fe905067534762a9","toSide":"top","label":"User uploads file"},
+		{"id":"e1cfdb3831e6dbd8","fromNode":"fe905067534762a9","fromSide":"right","toNode":"a6b9ea17f1d57676","toSide":"left","label":"Returns parsed file"},
+		{"id":"18e143daf7df8919","fromNode":"dbb951267986076f","fromSide":"bottom","toNode":"ae87f555a1ef0e43","toSide":"bottom","label":"User requests file export"},
+		{"id":"ff2b077f3c0ac8ce","fromNode":"ae87f555a1ef0e43","fromSide":"top","toNode":"f3ec16b43c336624","toSide":"bottom","label":"File Generates and user is triggered to save it using file explorer."},
+		{"id":"bf2d92a875767eb3","fromNode":"a6b9ea17f1d57676","fromSide":"bottom","toNode":"a25dce4791521399","toSide":"left","label":"User hits send"},
+		{"id":"48a8176409012665","fromNode":"e7b379bd04923c03","fromSide":"bottom","toNode":"a25dce4791521399","toSide":"top","label":"On page entry , retrieve data"},
+		{"id":"184ec643b9447bac","fromNode":"dbb951267986076f","fromSide":"bottom","toNode":"a25dce4791521399","toSide":"right","label":"Regular details fetch queries"}
+	]
+}
