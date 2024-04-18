@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"1fe802b16885367d","type":"text","text":"app.com/home","x":-68,"y":-253,"width":250,"height":60,"color":"5"},
+		{"id":"335723dfb322b392","type":"text","text":"baseurl.com/.well-known/openid-configuration","x":176,"y":-508,"width":384,"height":68,"color":"6"},
+		{"id":"d9f16440e0eca561","type":"text","text":"Går til innloggins redirect url og bruker logger inn","x":-316,"y":65,"width":250,"height":60,"color":"5"},
+		{"id":"2ddf606b6a68c82e","type":"text","text":"app.com/signin-oidc","x":-614,"y":-254,"width":250,"height":60,"color":"5"},
+		{"id":"cfeb99266f0a39b5","type":"text","text":"baseurl.com/connect/token","x":-700,"y":95,"width":250,"height":60,"color":"6"},
+		{"id":"02dc95058aa8b938","type":"text","text":"baseurl.com/connect/userinfo","x":-520,"y":-474,"width":250,"height":60,"color":"6"},
+		{"id":"90a3e03ed5c6ee0a","type":"text","text":"app.com/scopecheck","x":-989,"y":-479,"width":250,"height":60,"color":"5"},
+		{"id":"3eab7e204ce1bd5c","type":"text","text":"app.com/notauthorized","x":-953,"y":-694,"width":250,"height":60,"color":"6"},
+		{"id":"527ebc5370376652","type":"text","text":"app.com/controlpanel","x":-1169,"y":-212,"width":250,"height":60,"color":"6"},
+		{"id":"c7263bc403f6e051","type":"text","text":"baseurl.com/connect/authorize","x":660,"y":5,"width":250,"height":60,"color":"6"}
+	],
+	"edges":[
+		{"id":"05a70a9617b7f004","fromNode":"1fe802b16885367d","fromSide":"top","toNode":"335723dfb322b392","toSide":"bottom","label":"sender GET request"},
+		{"id":"b6aacda909017594","fromNode":"335723dfb322b392","fromSide":"bottom","toNode":"1fe802b16885367d","toSide":"right","label":"Returnerer discovery doc"},
+		{"id":"1554a79b8d2c20e9","fromNode":"1fe802b16885367d","fromSide":"bottom","toNode":"c7263bc403f6e051","toSide":"left","label":"Sender get for tilgang til innloggings redirect"},
+		{"id":"a3649667541e0050","fromNode":"1fe802b16885367d","fromSide":"bottom","toNode":"d9f16440e0eca561","toSide":"top"},
+		{"id":"a6fe449b53ffcb2e","fromNode":"d9f16440e0eca561","fromSide":"left","toNode":"2ddf606b6a68c82e","toSide":"right"},
+		{"id":"ac214d9006132de7","fromNode":"2ddf606b6a68c82e","fromSide":"bottom","toNode":"cfeb99266f0a39b5","toSide":"top","label":"sender POST med ticket"},
+		{"id":"a1c8b548fe894ef2","fromNode":"cfeb99266f0a39b5","fromSide":"left","toNode":"2ddf606b6a68c82e","toSide":"left","label":"returnerer tokens"},
+		{"id":"ce06e37402283e10","fromNode":"2ddf606b6a68c82e","fromSide":"top","toNode":"02dc95058aa8b938","toSide":"bottom","label":"etterspør userinfo som har scope"},
+		{"id":"365758bc26767dfe","fromNode":"02dc95058aa8b938","fromSide":"right","toNode":"2ddf606b6a68c82e","toSide":"right","label":"Får info"},
+		{"id":"c447140f4bbc4237","fromNode":"2ddf606b6a68c82e","fromSide":"left","toNode":"90a3e03ed5c6ee0a","toSide":"right"},
+		{"id":"e2d572dc3d929a0f","fromNode":"90a3e03ed5c6ee0a","fromSide":"top","toNode":"3eab7e204ce1bd5c","toSide":"bottom","label":"Om bruker ikke har riktig scope"},
+		{"id":"3ad0142ae00e1bc1","fromNode":"90a3e03ed5c6ee0a","fromSide":"bottom","toNode":"527ebc5370376652","toSide":"top","label":"Bruker har tilgang til tjeneste"},
+		{"id":"67c181b2a4b1a80a","fromNode":"c7263bc403f6e051","fromSide":"top","toNode":"1fe802b16885367d","toSide":"right","label":"gir tilbake innloggings redirect"}
+	]
+}
