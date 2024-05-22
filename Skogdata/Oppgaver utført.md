@@ -1,0 +1,3 @@
+- Script for å batch-sende SMS via skogdata api
+- la til grace period for sletting av brukere som har blitt reaktivert
+- 

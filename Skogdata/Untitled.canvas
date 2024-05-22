@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"7a619a10ef750d0b","x":-80,"y":-240,"width":250,"height":60,"color":"5","type":"text","text":"SMSBatch"},
+		{"id":"f6579279a9671f05","type":"text","text":"Org","x":-780,"y":-60,"width":250,"height":60,"color":"5"},
+		{"id":"ee64f742de87c5b9","type":"text","text":"Message","x":-80,"y":-60,"width":250,"height":60,"color":"5"},
+		{"id":"c2d6d453f0ec9b8e","type":"text","text":"AccessFilter","x":-440,"y":-520,"width":250,"height":240,"color":"5"},
+		{"id":"84686d1cebb69f4a","type":"text","text":"Organization","x":-420,"y":-429,"width":156,"height":29},
+		{"id":"96709ed3f4fe08ce","x":-420,"y":-458,"width":115,"height":29,"type":"text","text":"FilterID"},
+		{"id":"0c8af396ef72d098","type":"text","text":"Scopes","x":-420,"y":-400,"width":115,"height":29},
+		{"id":"b1b4a38e75206c86","type":"text","text":"Roles","x":-420,"y":-371,"width":115,"height":29},
+		{"id":"fe2d5bd073aa561a","type":"text","text":"User","x":-780,"y":-240,"width":250,"height":60,"color":"5"}
+	],
+	"edges":[
+		{"id":"5dcd2eb362425731","fromNode":"f6579279a9671f05","fromSide":"top","toNode":"0c8af396ef72d098","toSide":"top"},
+		{"id":"a7fb66c5b8d15a62","fromNode":"96709ed3f4fe08ce","fromSide":"right","toNode":"7a619a10ef750d0b","toSide":"top"},
+		{"id":"9aaf09d099daf392","fromNode":"96709ed3f4fe08ce","fromSide":"right","toNode":"ee64f742de87c5b9","toSide":"top"},
+		{"id":"4f28beb2aedf67f0","fromNode":"fe2d5bd073aa561a","fromSide":"top","toNode":"b1b4a38e75206c86","toSide":"left"}
+	]
+}
