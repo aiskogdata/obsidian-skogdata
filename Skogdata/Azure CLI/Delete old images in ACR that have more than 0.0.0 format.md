@@ -75,9 +75,9 @@ for REPO_NAME in $REPO_LIST; do
 
             continue
 
-        fi
+  
 
-            echo "$PARSED_DATE is older than $UTC_PAST"
+        echo "$PARSED_DATE is older than $UTC_PAST"
 
   
 
@@ -94,8 +94,6 @@ for REPO_NAME in $REPO_LIST; do
 done
 
   
-
-REPO_LIST=$(az acr repository list -n $ACR_NAME -o tsv)
 
 PURGE_CMD="az acr purge --ago 1m --untagged"
 
@@ -119,5 +117,5 @@ touch acb.yaml
 
 #deletes all the untagged images without deleting tags related in manifest. If this is run, the tags disappear but the space used is not freed
 
-az acr run --cmd "$PURGE_CMD" --registry sddeletetest .
+az acr run --cmd "$PURGE_CMD" --registry ACR_NAME .
 ```

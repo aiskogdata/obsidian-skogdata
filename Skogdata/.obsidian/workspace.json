@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c473d256fae40cda",
+        "id": "136e379c257e317b",
         "type": "tabs",
         "children": [
           {
-            "id": "1a82992f1b324bc7",
+            "id": "d85dbaea29a54545",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2024-05-15.md",
+                "file": "K8s, Octo & docker/K8s setup/K8s Pod Affinity summary.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,20 +21,19 @@
             }
           },
           {
-            "id": "bcf9721f90a97ed0",
+            "id": "098103dbe78e8900",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Azure CLI/Delete old images in ACR that have more than 0.0.0 format.md",
+                "file": "Presentation Notes/Redis = Deadis.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure CLI/Delete old images in ACR that have more than 0.0.0 format.md",
+                "file": "K8s, Octo & docker/K8s setup/K8s Pod Affinity summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Azure CLI/Delete old images in ACR that have more than 0.0.0 format.md",
+                "file": "K8s, Octo & docker/K8s setup/K8s Pod Affinity summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Azure CLI/Delete old images in ACR that have more than 0.0.0 format.md"
+                "file": "K8s, Octo & docker/K8s setup/K8s Pod Affinity summary.md"
               }
             }
           }
@@ -163,37 +162,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bcf9721f90a97ed0",
+  "active": "d85dbaea29a54545",
   "lastOpenFiles": [
-    "Daily Notes/2024-05-22.md",
+    "K8s, Octo & docker/K8s setup/K8s pod affinity notes.md",
+    "Presentation Notes/Redis = Deadis.md",
+    "Presentation Notes",
+    "K8s, Octo & docker/K8s setup/K8s Pod Affinity summary.md",
     "Azure CLI/Delete old images in ACR that have more than 0.0.0 format.md",
+    "Daily Notes/2024-06-19.md",
+    "K8s, Octo & docker/K8s setup",
+    "EF issue.md",
+    "K8s, Octo & docker",
     "Azure CLI/Get all image details of registry.md",
-    "Daily Notes/2024-05-15.md",
-    "Azure CLI",
-    "BASH Pitfalls.md",
-    "Untitled.canvas",
-    "SMS batch class scaffolding.canvas",
+    "Daily Notes/2024-06-14.md",
+    "diagnostic snippets/Check ports.md",
+    "Git/Git branch management.md",
+    "Network commands.md",
+    "Octopus yaml eksempel.md",
+    "Oppgaver utført.md",
+    "REGEX.md",
     "SMS Batch Login flow.canvas",
+    "Untitled.canvas",
     "Vsys ID hindre nylig reaktiverte brukere fra å bli deaktivert igjen av worker.md",
     "Vsys Login prossess.md",
-    "Daily Notes/2024-05-14.md",
-    "Git/Git branch management.md",
-    "Git",
-    "Daily Notes/2024-05-03.md",
-    "Oppgaver utført.md",
-    "Octopus yaml eksempel.md",
-    "Daily Notes/2024-04-26.md",
-    "Daily Notes/2024-04-17.md",
-    "diagnostic snippets/Check ports.md",
-    "diagnostic snippets",
-    "Daily Notes/2024-04-18.md",
-    "Network commands.md",
+    "BASH Pitfalls.md",
     "Daily Notes/2024-04-11.md",
-    "Templates/Daily Note Template.md",
-    "Daily Notes/Untitled.md",
-    "Daily Notes/Untitled 1.md",
+    "Daily Notes/2024-05-03.md",
+    "Daily Notes/2024-05-23.md",
+    "Daily Notes/2024-04-26.md",
+    "Daily Notes/2024-04-18.md",
+    "Daily Notes/2024-04-17.md",
+    "Daily Notes/2024-05-22.md",
+    "Daily Notes/2024-05-15.md",
+    "Azure CLI",
+    "SMS batch class scaffolding.canvas",
+    "Daily Notes/2024-05-14.md",
+    "Git",
+    "diagnostic snippets",
     "Attachments",
-    "Welcome.md",
     "Templates",
     "Daily Notes"
   ]
