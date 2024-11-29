@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"24b17066bace6d8c","type":"text","text":"**Netside** /deviation/{guid}/attachments","x":-420,"y":-220,"width":390,"height":50},
+		{"id":"cd659be9ae88f502","type":"text","text":"ImageService","x":-115,"y":-28,"width":250,"height":60},
+		{"id":"f37652d461697633","type":"text","text":"**Api** /deviations/{guid}/attachment/{attachmentId}","x":80,"y":-440,"width":435,"height":50},
+		{"id":"18834de0cf05bb68","type":"text","text":"**Api** /deviations/{guid}/attachments/list","x":-115,"y":240,"width":435,"height":50},
+		{"id":"738d5d931c94cbc8","type":"text","text":"DeviationController.GetAttachmentLinks(Guid deviationGuid)","x":-80,"y":450,"width":522,"height":50},
+		{"id":"76169d712e952cc8","type":"text","text":"DeviationService.GetByDeviationGuid","x":-100,"y":620,"width":522,"height":50}
+	],
+	"edges":[
+		{"id":"e0ddfbeea6c7fe1f","fromNode":"24b17066bace6d8c","fromSide":"bottom","toNode":"cd659be9ae88f502","toSide":"top","label":"Ber om bilde linkene"},
+		{"id":"44b50c7540ad4086","fromNode":"cd659be9ae88f502","fromSide":"bottom","toNode":"18834de0cf05bb68","toSide":"top","label":"Ber om bilde linkene"},
+		{"id":"e3c09b940cf9d1c4","fromNode":"18834de0cf05bb68","fromSide":"right","toNode":"cd659be9ae88f502","toSide":"right","label":"Sender linker tilbake"},
+		{"id":"7f497e7fbb841d93","fromNode":"cd659be9ae88f502","fromSide":"right","toNode":"24b17066bace6d8c","toSide":"right","label":"Sender linker tilbake"},
+		{"id":"e175cefad1565f36","fromNode":"24b17066bace6d8c","fromSide":"right","toNode":"f37652d461697633","toSide":"left","label":"Laster inn hvert bilde med \nlinker fra API"},
+		{"id":"02d0099b5a69a4f2","fromNode":"18834de0cf05bb68","fromSide":"bottom","toNode":"738d5d931c94cbc8","toSide":"top"},
+		{"id":"d7de0359bf07b1a0","fromNode":"738d5d931c94cbc8","fromSide":"bottom","toNode":"76169d712e952cc8","toSide":"top","label":"Henter Deviation for å anskaffe relaterte Attachment IDer"},
+		{"id":"1d116b8d8c6397bb","fromNode":"738d5d931c94cbc8","fromSide":"left","toNode":"18834de0cf05bb68","toSide":"left","label":"Generer\nen liste med \nlenker ala\n/deviations/\n{guid}/attachments/{attachmentId}"},
+		{"id":"109c979da2c21bb2","fromNode":"76169d712e952cc8","fromSide":"right","toNode":"738d5d931c94cbc8","toSide":"right"}
+	]
+}
