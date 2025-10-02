@@ -1,0 +1,14 @@
+- Lage og aktivere SO med Eudr referanser
+- IO mottar eudr referanser fra SO master ordre
+- SO mottar eudr referanser fra IO maser ordre
+- EUDR referanse blir lagt in i logg for ordren (både hos master og slave ordre)
+- Ordre med forhåndsfylte eudr refereanser skjekker og validere referansen mot TRACES
+	- En som succeeder
+	- en som failer 
+	- en som stille failer om den ikke får kontakta traces 
+- OrderConfirmation sender med EndUserOrgNum, OriginalPurchaseOrderParty (navn og nummer), OriginalPurchaseOrderNum, OwnershipMark, PlaceFinalDestinationName, PlaceFinalDesitnationLatitude, PlaceFinalDestinationLongitude
+	- map et fiktivt måledokument fra fil
+- Tester av OrderHead Validation for IO og SO relatert til larger salg
+- Test av Uttak av EUDR data, measured rapport
+- Skjekke at EUDR synk workern funker
+

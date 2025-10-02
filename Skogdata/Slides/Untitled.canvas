@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"36f4e37c50bf4027","type":"text","text":"Skogeieravtale blir laget med status `Behandler`","x":385,"y":-240,"width":250,"height":100},
+		{"id":"a7088fa4eaf6da2e","type":"text","text":"DDSSyncWorker henter alle PuOhead som har et EUDR DDS felt relatert til seg og enten har `null` us DDSStatus eller `Submitted` rangert etter lengst tid siden oppdateringsjekk","x":300,"y":-80,"width":420,"height":120},
+		{"id":"2679d7e5e51a8f5c","x":-295,"y":-240,"width":250,"height":100,"type":"text","text":"Skogeieravtale blir laget med status `Behandler`"},
+		{"id":"8f4af5f86b8f98c7","type":"text","text":"DDSSyncWorker henter alle PuOhead som har et EUDR DDS felt relatert til seg og enten har `null` us DDSStatus eller `Submitted` rangert etter lengst tid siden oppdateringsjekk","x":-380,"y":-80,"width":420,"height":120},
+		{"id":"87700f32f2b0dd23","type":"text","text":"DDSSyncWorker etterspør alle DDSene til de relaterte PuoHeadene","x":-380,"y":100,"width":420,"height":80},
+		{"id":"be794f314443096c","type":"text","text":"DDSSyncWorker skjekker DDS statusen og oppdaterer om Available eller Rejected","x":-380,"y":240,"width":420,"height":80},
+		{"id":"f3b5c49c7982a1d7","type":"text","text":"DDSSyncWorker etterspør alle DDSene til de relaterte PuoHeadene","x":300,"y":120,"width":420,"height":80},
+		{"id":"87cf5fb0d70d6362","type":"text","text":"DDSSyncWorker skjekker DDS statusen og oppdaterer om Available eller Rejected","x":300,"y":260,"width":420,"height":80},
+		{"id":"eb4469f24e1cc188","type":"text","text":"VH setter status til `Kansellert` og DDSStatus til `Submitted` ","x":300,"y":440,"width":420,"height":80},
+		{"id":"a73bcaf7f1afa470","type":"text","text":"DDSSyncWorker skjekker DDS statusen og oppdaterer om Withdrawn eller Cancelled","x":300,"y":580,"width":420,"height":80}
+	],
+	"edges":[
+		{"id":"57898543b9d96628","fromNode":"2679d7e5e51a8f5c","fromSide":"bottom","toNode":"8f4af5f86b8f98c7","toSide":"top"},
+		{"id":"46c17b0b962fb085","fromNode":"8f4af5f86b8f98c7","fromSide":"bottom","toNode":"87700f32f2b0dd23","toSide":"top"},
+		{"id":"715fa3cb6c62dee5","fromNode":"87700f32f2b0dd23","fromSide":"bottom","toNode":"be794f314443096c","toSide":"top"},
+		{"id":"cfcf39a41f6de2e8","fromNode":"36f4e37c50bf4027","fromSide":"bottom","toNode":"a7088fa4eaf6da2e","toSide":"top"},
+		{"id":"b30345ea512929f1","fromNode":"87cf5fb0d70d6362","fromSide":"bottom","toNode":"eb4469f24e1cc188","toSide":"top","label":"Bruker kansellerer orderen"},
+		{"id":"e6f0004c0a82890b","fromNode":"f3b5c49c7982a1d7","fromSide":"bottom","toNode":"87cf5fb0d70d6362","toSide":"top"},
+		{"id":"0c1fe26c50270f6e","fromNode":"a7088fa4eaf6da2e","fromSide":"bottom","toNode":"f3b5c49c7982a1d7","toSide":"top"},
+		{"id":"98ce4c315b72896c","fromNode":"eb4469f24e1cc188","fromSide":"bottom","toNode":"a73bcaf7f1afa470","toSide":"top"}
+	]
+}

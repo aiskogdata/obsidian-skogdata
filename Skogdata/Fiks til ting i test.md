@@ -1,0 +1,4 @@
+- Lage ny tag med oppdatert endringsnummer (siste i rekka)
+- Oppdatere wiki for å passe på at det er riktig ting som blir deploya
+- Informere test
+- 

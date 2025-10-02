@@ -1,5 +1,8 @@
-### ~~Validering av landskoder til TRACES~~
-- ~~snakke med even om landskoder~~
-- ~~fikse landskoder i reg~~
-- ~~legge til validering i Eudr modulen~~
-
+- Fikse sorting feil i Push notifikasjon
+- Ferdigstille CVE skanner
+- VH service bus emulator
+	- fikse så en lokal vh klient kan snakke med emulatoern
+	- slenge med en vh klient inn i docker bilde
+	- få klientene til og snakke sammen
+	- mocke opp progress svar
+- Fastpris TR

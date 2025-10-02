@@ -3,5 +3,6 @@
   "dataview",
   "templater-obsidian",
   "obsidian-annotator",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-advanced-slides"
 ]

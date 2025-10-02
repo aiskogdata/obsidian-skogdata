@@ -1,0 +1,14 @@
+## 2024-2025
+- Script for å batch-sende SMS via skogdata api
+- la til grace period for sletting av brukere som har blitt reaktivert
+- Web frontend for å massesending av SMS via skogdata apiet
+- oppdaterte all bruk av Vsys.ID rolllen "Admin" til "Superbruker"
+- Oppgradere VH til .NET 8
+- Lage runbooks i Octopus og definiere deployments av workers i Octopus for IM og KM prosjektene under åsyn av CH
+- Pod Affinity research for CH
+- Oppdaterete Microsft Identity Nugetpakken i Virkeshandel og endret Admin rolle til Superbruker i samtlige systemer som bruker Vsys ID. Ga tilgang til Kontrollsjef i IM for at de skal kunne se innmåling dokumenter uten større tilgang.
+- Oppdatere TR sin avviksepost til å også vise om avviket har økonomiske konsekvenser eller Stopp i Transport
+- Opdatere TR sitt API, nettside, og avviksepost til å genere en link for å anonymt ha tilgang til å se avviksbildene.
+- I Vsys ID, la til muligheten for å midlertidig overstyre passordet til en App konto slik at Skogdata Superbrukere kan impersonere de uten å endre selvebrukeren.
+- CVE cron job worker som forer CVE vulnrebilities til app insighten vår (nesten ferdig)
+- Mini prosjekt sammen med Erlend som analyserer bruk av endepunkter for og finne ut hvilken av de som faktisk er i bruk. 

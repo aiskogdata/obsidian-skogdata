@@ -1,5 +1,6 @@
 {
   "attachmentFolderPath": "Attachments",
   "promptDelete": false,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "showUnsupportedFiles": true
 }

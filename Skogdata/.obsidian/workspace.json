@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d0b644ceb56dedd4",
+        "id": "a18ab7f76089c45b",
         "type": "tabs",
         "children": [
           {
-            "id": "44b7a21fdd0679a2",
+            "id": "05b9a2a0dcd5c931",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "KQL queries used.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "KQL queries used"
+              "title": "New tab"
             }
           }
         ]
@@ -41,7 +36,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "`skogdata.azurecr.io/vsys.vh",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 406.5
   },
   "right": {
     "id": "7c844b8b655114bf",
@@ -113,12 +109,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Oppgave Notes/23470 Negative Message Response.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 23470 Negative Message Response"
+              "title": "Outgoing links"
             }
           },
           {
@@ -140,22 +135,25 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Oppgave Notes/23470 Negative Message Response.md"
+                "file": "VH/Gyldig external purchase order create.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 23470 Negative Message Response"
+              "title": "Outline of Gyldig external purchase order create"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -163,62 +161,66 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "44b7a21fdd0679a2",
+  "active": "05b9a2a0dcd5c931",
   "lastOpenFiles": [
-    "pw.md",
+    "KQL queries/Requests summarized by User and tenant.md",
+    "K8s, Octo & docker/K8s/View Config map.md",
+    "K8s, Octo & docker/Query for og finne alle tags relatert til en sha.md",
+    "CVE/Skogdata CVCE Monitoring/00 - Overview.md",
+    "CVE/Skogdata CVCE Monitoring/CVE-2025-4517, CVE-2025-4330, CVE-2025-4435,  2025-8194, CVE-2025-4138, CVE-2024-12718 and CVE-2024-623.md",
+    "CVE/Skogdata CVCE Monitoring/CVE-2025-29087 and CVE-2025-3277.md",
+    "CVE/Skogdata CVCE Monitoring/CVE-2024-28757, CVE-2024-45490, CVE-2024-45491 and CVE-2024-45492.md",
+    "CVE/Skogdata CVCE Monitoring/CVE-2024-0397.md",
+    "CVE/Skogdata CVCE Monitoring/CVE-2023-6597.md",
+    "CVE/Skogdata CVCE Monitoring/CVE-2023-52425 and CVE-2024-8176.md",
+    "CVE/Skogdata CVCE Monitoring/GHSA-5rjg-fvgr-3xxf and GHSA-cx63-2mw6-8hw5.md",
+    "CVE/Skogdata CVCE Monitoring/CVE-2025-31115.md",
+    "CVE/Skogdata CVCE Monitoring/CVE-2024-7592.md",
+    "CVE/Skogdata CVCE Monitoring/CVE-2024-6232.md",
+    "KQL queries/Users with browser error of type.md",
+    "KQL queries/VIol 3 documents dropped by reason and doc num.md",
+    "KQL queries/Analysere bruk av endepunkter.md",
+    "CVE/Skogdata CVCE Monitoring/CVE-2025-6297.md",
+    "CVE/Skogdata CVCE Monitoring/CVE-2024-8088.md",
+    "CVE/Skogdata CVCE Monitoring/CVE-2022-48174.md",
+    "CVE/Skogdata CVCE Monitoring/GHSA-gjf6-3w4p-7xfh.md",
+    "CVE/Skogdata CVCE Monitoring/GHSA-447r-wph3-92pm.md",
+    "CVE/Skogdata CVCE Monitoring/GHSA-266m-wp2v-x7mq.md",
+    "CVE/Skogdata CVCE Monitoring/CVE-2025-6020.md",
+    "CVE/Skogdata CVCE Monitoring/CVE-2024-56406.md",
+    "CVE/Skogdata CVCE Monitoring/CVE-2024-6119.md",
+    "Untitled.base",
+    "CVE/Skogdata CVCE Monitoring",
+    "Attachments/EUDR - EUDR GEOJSON FILE DESCRIPTION 1.5 (1) 1.pdf",
+    "Attachments/EUDR - API EO Specifications v1.4 1.pdf",
+    "Attachments/EUDR - API EO Specifications v1.4.pdf",
+    "Attachments/EUDR - EUDR GEOJSON FILE DESCRIPTION 1.5 (1).pdf",
+    "Code templates/Redis template",
+    "Code templates",
+    "Slides/Untitled.canvas",
+    "Vsys Id",
+    "VH/Untitled.canvas",
+    "Oppgave Notes/Archive",
+    "Attachments/Pasted image 20250512084747.png",
     "Oppgave Notes/23677/Save Order flyt.canvas",
-    "KQL queries used.md",
-    "Oppgave Notes/23677",
-    "Untitled.md",
-    "Oppgave Notes/23470/23470 Negative Message Response.md",
-    "kusto temps.md",
-    "Traces logging to storage account.md",
-    "TODO.md",
-    "Daily Notes/2024-04-11.md",
-    "Daily Notes/2024-08-15.md",
-    "Daily Notes/2024-11-19.md",
     "Oppgave Notes/23470/PurchaseOrder VH til VH flyt.canvas",
-    "Oppgave Notes/23470",
     "Attachments/Pasted image 20241119092507.png",
     "Attachments/Pasted image 20241119090103.png",
-    "releease.md",
-    "diagnostic snippets/Check ports.md",
-    "Daily Notes/2024-08-09.md",
-    "Daily Notes/2024-09-03.md",
-    "Daily Notes/2024-09-12.md",
-    "Daily Notes/2024-09-16.md",
-    "Daily Notes/2024-10-08.md",
-    "Daily Notes/2024-10-11.md",
-    "Daily Notes/2024-10-28.md",
-    "Daily Notes/2024-11-14.md",
-    "Daily Notes/2024-11-15.md",
-    "Daily Notes/2024-11-18.md",
-    "Untitled.canvas",
-    "Vsys Login prossess.md",
-    "SBOM notes.md",
     "Attachments/Pasted image 20241114161702.png",
     "Attachments/Pasted image 20241114155921.png",
     "Attachments/Pasted image 20241114155848.png",
     "Attachments/Pasted image 20241114155828.png",
     "Attachments/Pasted image 20241114155522.png",
     "Attachments/Pasted image 20241114155438.png",
-    "Oppgave Notes",
-    "EUDRTraces/Retract request.md",
-    "EUDRTraces",
     "Attachments/Pasted image 20241101085533.png",
-    "K8s, Octo & docker/Octopus",
     "SMS prosjekt/Untitled.canvas",
     "SMS prosjekt/SMS Batch Login flow.canvas",
     "SMS prosjekt/SMS batch class scaffolding.canvas",
-    "test.json",
-    "New Text Document.txt",
     "Attachments/Untitled.canvas",
-    "Excalidraw",
-    "SMS prosjekt",
-    "Untitled 1.canvas",
-    "Presentation Notes"
+    "Untitled 1.canvas"
   ]
 }
